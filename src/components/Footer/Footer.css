@@ -1,0 +1,44 @@
+.footer {
+    background-color: #1a202c; /* Match your website's color scheme */
+    color: #cbd5e0; 
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top:30px;
+    position:absolute;
+    left:0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 20px;
+  }
+  
+  .footer-text {
+    text-align: left; /* Adjust alignment as per your design */
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+    align-items: center;
+  }
+  
+  .footer-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  .footer-icons a svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .footer-icons a:hover {
+    opacity: 0.8; /* Change opacity on hover */
+  }
+  
